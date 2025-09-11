@@ -66,15 +66,17 @@
         <div class="row justify-content-center">
           <div class="col-lg-9">
             <h2>Keith Darren</h2>
-            <p>I'm <span class="typed" data-typed-items="Civil Engineer"> </span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            <p>I'm <span class="typed" data-typed-items="Civil Engineer"></span></p>
             <div class="social-links">
-              <a href="https://www.facebook.com/keithdarren.bagui"><i class="bi bi-facebook"></i></a>
-              <a href="assets/resume.pdf" target="_blank" title="View Resume">
+              <a href="assets/resume.pdf" target="_blank" title="View Resume" class="resume-link">
                 <i class="bi bi-file-earmark-text"></i>
+                <span>View My Resume</span>
               </a>
             </div>
           </div>
         </div>
+      </div>
+
       </div>
 
     </section><!-- /Hero Section -->
@@ -144,7 +146,7 @@
     <div class="row gy-4">
 
       <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-        <img src="assets/img/tools/microsoftexcel.png" alt="Microsoft Excel" class="img-fluid" style="max-height:80px;">
+        <img src="assets/img/tools/mico.png" alt="Microsoft Excel" class="img-fluid" style="max-height:80px;">
         <div class="tools-item text-center mt-2">
           <h4>Microsoft Excel</h4>
           <p>Detailed unit price analysis, BOQ preparation, and   cost breakdowns.</p>
@@ -325,9 +327,8 @@
             <h3 class="resume-title">Sumary</h3>
 
             <div class="resume-item pb-0">
-            
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-              <ul>
+            <h2>Keith Darren Bagui</h2>
+              
                 <li>Sariaya, Quzeon, Philippines</li>
                 <li>+63 907 8875</li>
                 <li>kdebagui@gmail.com</li>
@@ -337,7 +338,7 @@
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
               <h4>Bachelor of Science in  Civil Engineering</h4>
-              <h5>2015 - 2016</h5>
+              <h5>2014 - 2019</h5>
               <p><em>University of Pangasinan</em></p>
               <!--<p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>-->
             </div><!-- Edn Resume Item -->
@@ -373,7 +374,7 @@
             </div><!-- Edn Resume Item -->
 
             <div class="resume-item">
-              <h4>Cost Engineer and Planning Engineer - Present</h4>
+              <h4>Cost and Planning Engineer - Present</h4>
               <h5>2024 - 2025</h5>
               <p><em>Quezon City, Metro Manila, Philippines</em></p>
               <ul>
@@ -751,37 +752,7 @@
 
           </div>
 
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
+          
 
         </div>
 
@@ -792,25 +763,30 @@
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
-    <div class="container">
+    <div class="container text-center">
+
+      <!-- Site name -->
       <h3 class="sitename">Keith Darren Bagui</h3>
-      <div class="social-links d-flex justify-content-center">
-      
+
+      <!-- Resume link under the name -->
+      <div class="resume-link mt-2">
+        <a href="assets/resume.pdf" target="_blank" class="btn btn-outline-primary d-inline-flex align-items-center">
+          <i class="bi bi-file-earmark-text me-2"></i>
+          <span>View My Resume</span>
+        </a>
       </div>
-      <div class="container">
-        <div class="copyright">
-        
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        
-        </div>
+
+      <!-- Social links (optional) -->
+      <div class="social-links d-flex justify-content-center mt-3">
+        <!-- Example: <a href="#"><i class="bi bi-facebook"></i></a> -->
       </div>
+
+      <!-- Copyright -->
+     
+
     </div>
   </footer>
+
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
